@@ -5,9 +5,9 @@ node {
    	stage 'Checkout'
    		git url: 'https://github.com/premkumar-1979/Shellscriptjenkinsfile.git'
    	stage 'Build'
-   		sh './myBuild.sh'
+   		sh './Dev.sh'
    	stage 'Deploy'
-   		sh './myDeployment.sh'
+   		sh './Test.sh'
   
 }
 
